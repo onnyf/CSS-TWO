@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+footer{
+
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    
+
+
+
+}
+
+
+.first{
+    flex: 30%;
+    
+    
+
+}
+
+.second,.third,.fourth,.fifth{
+flex: 17.5%;
+
+
+}
+
+h3{
+    margin-bottom: 20px;
+
+
+}
+
+
+    footer .second ul li a:hover{
+        color: red;
+    }
+
+    footer .second ul li a:active{
+        color: orange;
+
+    }
+
+
+    h1{
+        border: 1px solid;
+        display: inline;
+
+    }
+
+    .text a{
+
+        display: block;
+
+    }
+
+    .block{
+
+        display: none;
+        
+    }
+
